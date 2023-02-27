@@ -23,6 +23,7 @@ function Header() {
     },[]);
     const logout=(isAdmin)=>{
         dispatch(isAdmin?adminActions.logout():userActions.logout())
+        //commmenttttt
         
     };
    const handleChange=(e,val)=>{
